@@ -1,6 +1,10 @@
 package com.serratec.serratec_music.domain;
 
 import java.util.List;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -25,6 +29,7 @@ public class Artista {
     private String nacionalidade;
 
     @ManyToMany(mappedBy = "artistas")
+    @JsonIgnore
     private List<Musica> musicas;
 
     // ---------------- GETTERS E SETTERS ---------------- //

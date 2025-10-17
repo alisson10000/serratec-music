@@ -4,6 +4,7 @@ import java.util.List;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
+
 import com.serratec.serratec_music.enums.GeneroMusical;
 
 @Entity
@@ -36,7 +37,7 @@ public class Musica {
         joinColumns = @JoinColumn(name = "id_musica"),
         inverseJoinColumns = @JoinColumn(name = "id_artista")
     )
-    private List<Artista> artistas;
+     private List<Artista> artistas;
 
     // ---------------- GETTERS E SETTERS ---------------- //
     public Long getId() {
