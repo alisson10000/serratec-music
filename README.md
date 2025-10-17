@@ -210,7 +210,7 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 1. **Clonar o repositório**
    ```bash
-   git clone https://github.com/alisson10000/serratec-music.git
+   https://github.com/alisson10000/serratec-music.git
    ```
 
 2. **Configurar o banco de dados PostgreSQL**
