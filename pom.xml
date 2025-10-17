@@ -75,7 +75,12 @@
 			<version>2.8.6</version>
 		</dependency>
 
-</dependencies>
+		<dependency>
+			<groupId>com.serratec</groupId>
+			<artifactId>aula4</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
