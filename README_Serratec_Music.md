@@ -3,8 +3,8 @@
 ## 🧑‍💻 Desenvolvedor
 **Nome:** Alisson Lima de Souza  
 **Curso:** Serratec - Residência em TIC - Back-end  
-**Disciplina:** Programação Back-End II  
-**Professor:** [Insira o nome do professor, se desejar]  
+**Disciplina:** Programação Back-End API
+**Professor:** Romulo 
 **Data de Entrega:** 20/10/2025  
 
 ---
